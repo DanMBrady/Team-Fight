@@ -1,0 +1,13 @@
+.heroPhoto{
+    height:200px;
+    width:200px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin: 40px;
+}
+
+.heroSelect{
+    display: flex;
+    flex-direction: row;
+    margin-top: 140px;
+}

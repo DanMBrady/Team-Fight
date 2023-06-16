@@ -1,0 +1,17 @@
+.selectScreen{
+    background: rgb(34, 0, 112);
+    height:740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+.selectPhoto{
+    height:140px;
+    margin:30px;
+}
+
+.redTeamTop{
+    margin-top: 100px;
+}

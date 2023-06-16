@@ -1,0 +1,17 @@
+.startScreen{
+    background: rgb(34, 0, 112);
+    height:740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startButton{
+    height: 150px;
+    width:300px;
+    background: rgb(0, 0, 112);
+    color:white;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
