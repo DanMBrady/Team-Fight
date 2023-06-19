@@ -7,6 +7,11 @@ import { BlueStrength } from "../strength/BlueStrength"
 import { RedStrength } from "../strength/RedStrength"
 import { BlueSpeed } from "../speed/BlueSpeed"
 import { RedSpeed } from "../speed/RedSpeed"
+import { BlueInt } from "../intelligence/BlueInt"
+import { RedInt } from "../intelligence/RedInt"
+import { BlueBal } from "../balanced/BlueBal"
+import { RedBal } from "../balanced/RedBal"
+import { Winner } from "../winner/Winner"
 export const ApplicationViews =()=>{
 const navigate =useNavigate()
 
@@ -30,6 +35,16 @@ const navigate =useNavigate()
             element={<BlueSpeed/>} />
              <Route path =":blueChoiceId/:redChoiceId/:blueStrengthId/:redStrengthId/:blueSpeedId/redSpeed" 
             element={<RedSpeed/>} />
+             <Route path =":blueChoiceId/:redChoiceId/:blueStrengthId/:redStrengthId/:blueSpeedId/:redSpeedId/blueIntelligence" 
+            element={<BlueInt/>} />
+             <Route path =":blueChoiceId/:redChoiceId/:blueStrengthId/:redStrengthId/:blueSpeedId/:redSpeedId/:blueIntId/redIntelligence" 
+            element={<RedInt/>} />
+             <Route path =":blueChoiceId/:redChoiceId/:blueStrengthId/:redStrengthId/:blueSpeedId/:redSpeedId/:blueIntId/:redIntId/blueBalanced" 
+            element={<BlueBal/>} />
+             <Route path =":blueChoiceId/:redChoiceId/:blueStrengthId/:redStrengthId/:blueSpeedId/:redSpeedId/:blueIntId/:redIntId/:blueBalId/redBalanced" 
+            element={<RedBal/>} />
+             <Route path =":blueChoiceId/:redChoiceId/:blueStrengthId/:redStrengthId/:blueSpeedId/:redSpeedId/:blueIntId/:redIntId/:blueBalId/:redBalId/winner" 
+            element={<Winner/>} />
         </Routes>
     )
 }
