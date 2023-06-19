@@ -43,7 +43,7 @@ const navigate =useNavigate()
             element={<BlueBal/>} />
              <Route path =":blueChoiceId/:redChoiceId/:blueStrengthId/:redStrengthId/:blueSpeedId/:redSpeedId/:blueIntId/:redIntId/:blueBalId/redBalanced" 
             element={<RedBal/>} />
-             <Route path =":blueChoiceId/:redChoiceId/:blueStrengthId/:redStrengthId/:blueSpeedId/:redSpeedId/:blueIntId/:redIntId/:blueBalId/:redBalId/winner" 
+             <Route path =":blueStrengthId/:redStrengthId/:blueSpeedId/:redSpeedId/:blueIntId/:redIntId/:blueBalId/:redBalId/winner" 
             element={<Winner/>} />
         </Routes>
     )

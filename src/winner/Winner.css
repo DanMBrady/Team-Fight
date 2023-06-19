@@ -1,0 +1,63 @@
+.winnerScreen{
+    background: rgb(34, 0, 112);
+    height:740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+.winnerPhoto{
+    height:200px;
+    width:200px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-left:40px;
+    margin-bottom: 40px;
+    margin-bottom: 0px;
+    
+}
+.loserPhoto{
+    height:150px;
+    width:150px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-left:40px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.winnerSelect{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   margin-top: 100px;
+}
+.loserSelect{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   margin-top: 80px;
+}
+
+.winnerCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer{
+    width:100%;
+    height:100px;
+    display:flex;
+justify-content: space-between;
+}
+
+.playAgainButton{
+    height: 65px;
+    width:150px;
+    background: rgb(0, 0, 112);
+    color:white;
+    font-size: 25px;
+    font-weight: lighter;
+   
+}

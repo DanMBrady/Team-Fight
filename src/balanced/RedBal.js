@@ -27,7 +27,7 @@ export const RedBal =()=>{
         <h1>Player Two Choose Your Balanced Hero</h1>
         <article className="heroSelect">{
             redChoice.map(red=>{
-                return<article><Link to={`/${blueChoiceId}/${redChoiceId}/${blueStrengthId}/${redStrengthId}/${blueSpeedId}/${redSpeedId}/${blueIntId}/${redIntId}/${blueBalId}/${red.id}/winner`}>
+                return<article><Link to={`/${blueStrengthId}/${redStrengthId}/${blueSpeedId}/${redSpeedId}/${blueIntId}/${redIntId}/${blueBalId}/${red.id}/winner`}>
                  <img className="heroPhoto" 
                 src={red.photo}></img></Link></article>
             })
